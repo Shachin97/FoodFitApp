@@ -32,5 +32,10 @@ namespace FoodFitApp.Views
 
             await DisplayAlert("Success", "Account created successfully!", "OK");
         }
+
+        private void Button_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new Login());
+        }
     }
 }

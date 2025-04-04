@@ -16,7 +16,7 @@
 
 		<StackLayout Orientation="Horizontal" HorizontalOptions="Center">
 			<Label Text="Already have an account?" />
-			<Label Text="Log in" TextColor="Blue" GestureRecognizers="{Binding LoginTapped}" />
+			<Button Text="Log in" TextColor="Blue" Clicked="Button_Clicked" />
 		</StackLayout>
 	</StackLayout>
 
