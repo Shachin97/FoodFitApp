@@ -1,4 +1,6 @@
-﻿namespace FoodFitApp
+﻿using Microsoft.Maui.Controls;
+using FoodFitApp.Views;
+namespace FoodFitApp
 {
     public partial class App : Application
     {
@@ -6,7 +8,7 @@
         {
             InitializeComponent();
 
-            MainPage = new AppShell();
+            MainPage = new Navigation(new SignUpPage());
         }
     }
 }
