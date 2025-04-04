@@ -8,7 +8,7 @@ namespace FoodFitApp
         {
             InitializeComponent();
 
-            MainPage = new Navigation(new SignUpPage());
+            MainPage = new NavigationPage(new SignupPage());
         }
     }
 }
